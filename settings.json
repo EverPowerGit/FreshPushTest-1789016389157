@@ -1,0 +1,6 @@
+{
+	"settings": {
+		"dbPath": "voting.db",
+		"dbScriptsFolderPath": "./dbScripts"
+	}
+}

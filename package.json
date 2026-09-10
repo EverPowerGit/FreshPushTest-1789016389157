@@ -1,0 +1,23 @@
+{
+  "name": "voting_contract",
+  "version": "1.0.0",
+  "description": "HotPocket Voting DApp Contract",
+  "main": "startup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildLinux": "npx ncc build ./startup.js -o dist",
+    "postinstall": "npm i sqlite3 --target_platform=linux --target_arch=x64 --target_libc=glibc --no-save"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "0.36.1",
+    "bson": "6.0.0",
+    "hotpocket-nodejs-contract": "0.5.10",
+    "sqlite3": "5.1.6",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}
