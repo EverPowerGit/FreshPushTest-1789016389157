@@ -1,8 +1,8 @@
 {
-	"settings": {
-		"dbPath": "voting.db",
-		"dbScriptsFolderPath": "./dbScripts"
-	}
+	    "settings": {
+			        "dbPath": "voting.db",
+					        "dbScriptsFolderPath": "./dbScripts"
+		}
 }
-
-// fresh-repo-test-1789016400088
+		}
+}
